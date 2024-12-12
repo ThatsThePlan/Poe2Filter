@@ -114,6 +114,15 @@ Show # Currency
  PlayEffect Blue
  MinimapIcon 0 Blue Circle
 
+# Highlight Crossbows with High Contrast and Noise
+Show
+ Class "Crossbow"
+ SetFontSize 45
+ SetTextColor 255 255 255  # White text
+ SetBorderColor 0 255 0  # Bright green border
+ SetBackgroundColor 0 0 0  # Black background
+ PlayAlertSound 3 300  # Subtle sound
+
 # Highlight Belts and Amulets with High Contrast and Noise
 Show
  Class "Belt" "Amulet" "Ring"
