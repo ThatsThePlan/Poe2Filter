@@ -153,6 +153,19 @@ Show
  MinimapIcon 0 Blue Circle
  
 ############################
+# Staff Specific Highlight
+############################
+
+# Highlight Staff with High Contrast and Noise
+Show
+ Class "Staff"
+ SetFontSize 45
+ SetTextColor 255 255 255  # White text
+ SetBorderColor 0 255 0  # Bright green border
+ SetBackgroundColor 0 0 0  # Black background
+ PlayAlertSound 3 300  # Subtle sound
+ 
+############################
 # Jewlery
 ############################
 
