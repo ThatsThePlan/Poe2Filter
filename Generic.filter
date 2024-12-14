@@ -54,6 +54,7 @@ Show # uniques
 # Gold
 ############################
 
+
 # Highlight Gold with Bright Golden Background
 Show
  BaseType "Gold"
@@ -82,6 +83,7 @@ Show
  SetBorderColor 0 0 0  # Black border
  SetBackgroundColor 255 223 0  # Bright golden background
  
+
 ############################
 # Trial tokens
 ############################
@@ -153,6 +155,21 @@ Show
  MinimapIcon 0 Blue Circle
  
 ############################
+
+# Crossbow Specific Highlight
+############################
+
+# Highlight Crossbow with High Contrast and Noise
+Show
+ Class "Crossbow"
+ SetFontSize 45
+ SetTextColor 255 255 255  # White text
+ SetBorderColor 0 255 0  # Bright green border
+ SetBackgroundColor 0 0 0  # Black background
+ PlayAlertSound 3 300  # Subtle sound
+ 
+ ############################
+
 # Jewlery
 ############################
 
@@ -203,6 +220,7 @@ Show # maps
  MinimapIcon 0 Red Square
 
 ############################
+
 # Rares/Normals/Sockets/Quality
 ############################
 
@@ -228,7 +246,6 @@ Show
  SetFontSize 35
  SetTextColor 0 0 0  # Black text
  SetBorderColor 139 101 8  # Saddle brown border
- SetBackgroundColor 218 165 32  # Goldenrod background
 
 # Normal Items Smaller
 Show # Normal
