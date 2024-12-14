@@ -16,13 +16,13 @@ Show
 # Highlight Mid-Value Currency with Correct Colors and "Tink" Sound
 Show
  BaseType "Exalted Orb" "Regal Orb"
-    SetFontSize 40
-	SetTextColor 255 170 120 255 # Yellow text
-	SetBorderColor 255 170 120 255 # Yellow border
-	SetBackgroundColor 20 20 0 255 # Brown background
-	PlayAlertSound 2 300 # Mid-priority "tonk" sound
-	PlayEffect Yellow
-	MinimapIcon 0 Yellow Circle
+ SetFontSize 40
+ SetTextColor 150 0 0  # Red text
+ SetBorderColor 255 0 0  # Red border
+ SetBackgroundColor 255 255 255  # White background
+ PlayAlertSound 2 300  # High-priority "tink" sound
+ PlayEffect Red
+ MinimapIcon 0 Yellow Circle
 	
 # Highlight XYZ with Correct Colors and "Tink" Sound
 Show
@@ -54,7 +54,8 @@ Show # uniques
 # Gold
 ############################
 
-  # Highlight Gold with Bright Golden Background
+
+# Highlight Gold with Bright Golden Background
 Show
  BaseType "Gold"
  StackSize > 1000  # Only show stacks greater than 200
@@ -64,7 +65,7 @@ Show
  SetBackgroundColor 255 223 0  # Bright golden background
 
  
-  # Highlight Gold with Bright Golden Background
+# Highlight Gold with Bright Golden Background
 Show
  BaseType "Gold"
  StackSize > 200  # Only show stacks greater than 200
@@ -76,12 +77,14 @@ Show
 # Highlight Gold with Bright Golden Background
 Show
  BaseType "Gold"
+  StackSize > 1  # Only show stacks greater than 1 to not show items with "gold" other than gold
  SetFontSize 30  # Smaller font for lower priority
  SetTextColor 0 0 0  # Black text
  SetBorderColor 0 0 0  # Black border
  SetBackgroundColor 255 223 0  # Bright golden background
  
- ############################
+
+############################
 # Trial tokens
 ############################
  
@@ -152,6 +155,7 @@ Show
  MinimapIcon 0 Blue Circle
  
 ############################
+
 # Crossbow Specific Highlight
 ############################
 
@@ -165,6 +169,7 @@ Show
  PlayAlertSound 3 300  # Subtle sound
  
  ############################
+
 # Jewlery
 ############################
 
@@ -215,7 +220,8 @@ Show # maps
  MinimapIcon 0 Red Square
 
 ############################
-# Rares/Sockets/Quality
+
+# Rares/Normals/Sockets/Quality
 ############################
 
 # Highlight Rare Items with Green Theme
@@ -240,4 +246,11 @@ Show
  SetFontSize 35
  SetTextColor 0 0 0  # Black text
  SetBorderColor 139 101 8  # Saddle brown border
- SetBackgroundColor 218 165 32  # Goldenrod background
+
+# Normal Items Smaller
+Show # Normal
+ Rarity Normal
+ SetFontSize 20
+ SetTextColor 255 255 255  # White text
+ SetBorderColor 0 0 0  # Black border
+ SetBackgroundColor 0 0 0  # Black background
