@@ -54,7 +54,7 @@ Show # uniques
 # Gold
 ############################
 
-  # Highlight Gold with Bright Golden Background
+# Highlight Gold with Bright Golden Background
 Show
  BaseType "Gold"
  StackSize > 1000  # Only show stacks greater than 200
@@ -215,7 +215,7 @@ Show # maps
  MinimapIcon 0 Red Square
 
 ############################
-# Rares/Sockets/Quality
+# Rares/Normals/Sockets/Quality
 ############################
 
 # Highlight Rare Items with Green Theme
@@ -241,3 +241,11 @@ Show
  SetTextColor 0 0 0  # Black text
  SetBorderColor 139 101 8  # Saddle brown border
  SetBackgroundColor 218 165 32  # Goldenrod background
+
+# Normal Items Smaller
+Show # Normal
+ Rarity Normal
+ SetFontSize 20
+ SetTextColor 255 255 255  # White text
+ SetBorderColor 0 0 0  # Black border
+ SetBackgroundColor 0 0 0  # Black background
