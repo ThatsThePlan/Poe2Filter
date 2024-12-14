@@ -34,14 +34,6 @@ Show
  PlayAlertSound 6 300  # High-priority "tink" sound
  PlayEffect Red
  MinimapIcon 0 Red Circle
- 
- 	SetFontSize 40
-	SetTextColor 255 255 255 255
-	SetBorderColor 255 255 255 255
-	SetBackgroundColor 70 70 70 255
-	PlayAlertSound 4 300
-	PlayEffect White
-	MinimapIcon 2 White Square
 	
 ############################
 # Unique Items
