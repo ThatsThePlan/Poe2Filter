@@ -96,7 +96,7 @@ Show
  SetBackgroundColor 214 134 11  # Dark goldenrod background
  PlayEffect Brown
  
- ############################
+############################
 # Scrolls of Wisdom
 ############################
 
@@ -215,7 +215,7 @@ Show # rares
 
 # Highlight Socketed Items (1 or More Sockets) with Subtle Grey Theme
 Show
- Sockets > 0
+ Sockets > 1
  SetFontSize 35  # Smaller font for utility items
  SetTextColor 0 0 0  # Black text
  SetBorderColor 105 105 105  # Dim grey border
@@ -223,7 +223,7 @@ Show
 
 # Highlight Quality Items with Antique Gold Theme (Excluding Flasks)
 Show
- Quality > 0
+ Quality > 9
  SetFontSize 35
  SetTextColor 0 0 0  # Black text
  SetBorderColor 139 101 8  # Saddle brown border
