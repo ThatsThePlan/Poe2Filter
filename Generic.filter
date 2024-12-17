@@ -83,12 +83,12 @@ Show
  SetBackgroundColor 255 223 0  # Bright golden background
  
 ############################
-# Trial tokens
+# Trial tokens/ Soul Cores
 ############################
  
 # Highlight Scroll of Wisdom with Dark Golden Background
 Show
- BaseType "Djinn Barya" "Inscribed Ultimatum"
+ BaseType "Djinn Barya" "Inscribed Ultimatum" "Soul Core"
  SetFontSize 50
  SetTextColor 0 0 0  # Black text
  SetBorderColor 0 0 0  # Black border
@@ -151,7 +151,7 @@ Show
  SetBackgroundColor 0 0 0  # Black background
  PlayEffect Blue
  MinimapIcon 0 Blue Circle
- 
+
 ############################
 # Jewlery
 ############################
@@ -159,11 +159,10 @@ Show
 # Highlight Belts and Amulets with High Contrast and Noise
 Show
  Class "Belt" "Amulet" "Ring"
- SetFontSize 45
+ SetFontSize 40
  SetTextColor 255 255 255  # White text
  SetBorderColor 0 255 0  # Bright green border
  SetBackgroundColor 0 0 0  # Black background
- PlayAlertSound 3 300  # Subtle sound for belts and amulets
  
 ############################
 # Maps
